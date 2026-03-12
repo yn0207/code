@@ -7,6 +7,7 @@ struct Ngay{
     int thang;
     int nam;
 };
+//khai báo hàm
 void nhap(Ngay &n);
 void xuat(Ngay n);
 bool namNhuan(int nam);
