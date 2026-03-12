@@ -7,7 +7,7 @@ struct PS{
     int tu;
     int mau;
 };
-
+//khai báo hàm
 void nhap(PS &p);
 void xuat(PS p);
 int ucln(int a, int b);
