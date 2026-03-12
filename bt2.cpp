@@ -7,7 +7,7 @@ struct PS{
     int tu;
     int mau;
 };
-
+//khai báo hàm
 int gcd(int a, int b);
 void rutgon(PS &p);
 void nhap(PS &p);
@@ -40,8 +40,8 @@ int main ()
 //tìm ucln
 int gcd(int a, int b)
 {
-    if(b==0) return a;
-    return gcd(b, a%b);
+    if(b==0) return a;//b=0 thì a là ucln
+    return gcd(b, a%b);//đệ quy tìm ucln
 }
 //hàm rút gọn
 void rutgon(PS &p)
