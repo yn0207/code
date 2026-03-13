@@ -81,7 +81,7 @@ void nhap(HocSinh &hs)
 //hàm tính điểm trung bình
 float diemTB(HocSinh hs)
 {
-    return (hs.diemToan + hs.diemVan) / 2;
+    return (hs.diemToan + hs.diemVan) / 2.0;
 }
 //hàm xuất thông tin học sinh
 void xuat(HocSinh hs)
